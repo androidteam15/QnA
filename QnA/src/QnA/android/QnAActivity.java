@@ -10,4 +10,4 @@ public class QnAActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
-}
+} 
