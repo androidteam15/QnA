@@ -4,9 +4,16 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
+    <Button
+        android:id="@+id/qna"
+        android:layout_width="300px"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="QnA" />
 
+    <Button
+        android:id="@+id/lec"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="Lecture" />
+    
 </LinearLayout>
