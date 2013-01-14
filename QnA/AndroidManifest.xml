@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="14" />
+    <uses-sdk android:minSdkVersion="10" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -21,6 +21,7 @@
         <activity android:name="qna"></activity>
         <activity android:name="lec"></activity>
         <activity android:name="showquestion"></activity>
+        <activity android:name="askquestion"></activity>
     </application>
 
 </manifest>

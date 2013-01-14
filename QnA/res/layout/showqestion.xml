@@ -21,28 +21,24 @@
         <Button
             android:id="@+id/ask"
             android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.9"
-            android:text="질문하기" />
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:text="질문" />
 
         <Spinner
-            android:id="@+id/spinner1"
+            android:id="@+id/spinner"
             android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.5" />
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:prompt = "@string/planet_prompt" />
         
         <EditText
             android:id="@+id/input"
             android:layout_width="0px" 
-            android:layout_height="wrap_content" 
-            android:layout_weight="3" />
-        
-        <Button
-            android:id="@+id/find"
-            android:layout_width="0px"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.2"
-            android:text="검색" />
+            android:layout_height="fill_parent" 
+            android:layout_weight="3"
+            android:hint="Search" />
+
                
     </LinearLayout>
     
@@ -74,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="말머리"
+            android:text="교재"
             />
         <TextView
             android:id="@+id/title1"
@@ -90,7 +86,7 @@
     <ListView
         android:id="@+id/q_list"
         android:layout_width="fill_parent"
-        android:layout_height="300dip" >
+        android:layout_height="fill_parent" >
     </ListView>
 
 </LinearLayout>

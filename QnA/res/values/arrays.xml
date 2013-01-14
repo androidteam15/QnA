@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string-array name="keyword">
+		<item>번호</item>
+		<item>글쓴이</item>
+		<item>교재</item>
+		<item>제목</item>
+	</string-array>
+</resources>
